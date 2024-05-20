@@ -1,1 +1,90 @@
+/* Resetting some default styles */
+body, h1, h2, h3, p, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Set background color to white for better contrast */
+    color: #333333; /* Set text color */
+    line-height: 1.6; /* Improve readability */
+}
+
+header {
+    background-color: #333333; /* Darken the header background */
+    color: #ffffff; /* Light text color */
+    padding: 20px;
+    text-align: center; /* Center-align the text */
+}
+
+footer {
+    background-color: #333333; /* Darken the footer background */
+    color: #ffffff; /* Light text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Fix the footer to the bottom of the page */
+    width: 100%; /* Set the width to fill the entire page */
+    bottom: 0; /* Align the footer to the bottom */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+    padding: 20px; /* Add padding to sections */
+    background-color: #ffffff; /* Set section background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    border-radius: 5px; /* Add border radius for smoother edges */
+}
+
+h2 {
+    color: #007bff; /* Change headline color */
+    margin-bottom: 10px; /* Add space below headlines */
+    text-align: center; /* Center-align the headline */
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+}
+
+/* Image styles */
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some spacing between tables */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Lighten border color */
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: center; /* Center-align content */
+}
+
+th {
+    background-color: #f2f2f2; /* Lighten header background */
+    font-weight: bold; /* Make header text bold */
+}
 
